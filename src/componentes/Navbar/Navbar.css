@@ -1,0 +1,34 @@
+:root{
+    --main-color:#FD9255;
+    --text-color:#FFFFFF
+}
+
+.navColor {
+    width: 100vw;
+    height: 196px;
+    left: 0px;
+    top: 0px;
+    background: var(--main-color);
+    display: flex;
+}
+
+.navArea{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.navText{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.navText a{
+    text-decoration: none;
+    color: var(--text-color);
+    align-self: center;
+}
+
+
+
