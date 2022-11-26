@@ -1,14 +1,9 @@
-:root {
-    --main-color: #fd9255;
-    --text-color: #ffffff;
-}
-
 .navColor {
     width: 100vw;
     height: 196px;
     left: 0px;
     top: 0px;
-    background: var(--main-color);
+    background: #fd9255;
     display: flex;
 }
 
@@ -30,7 +25,5 @@
 .navText a {
     margin-right: 5%;
     text-decoration: none;
-    color: var(--text-color);
+    color: #ffffff;
 }
-
-
