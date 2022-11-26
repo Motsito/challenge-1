@@ -1,6 +1,6 @@
-:root{
-    --main-color:#FD9255;
-    --text-color:#FFFFFF
+:root {
+    --main-color: #fd9255;
+    --text-color: #ffffff;
 }
 
 .navColor {
@@ -12,23 +12,25 @@
     display: flex;
 }
 
-.navArea{
-    width: 50%;
+.navArea {
     display: flex;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: space-between;
 }
-
-.navText{
-    display: flex;
-    width: 50%;
-    justify-content: space-evenly;
-}
-.navText a{
-    text-decoration: none;
-    color: var(--text-color);
+.navArea a {
     align-self: center;
 }
-
+.navText {
+    display: flex;
+    margin-left: 300px;
+    width: 405px;
+    justify-content: space-evenly;
+}
+.navText a {
+    margin-right: 5%;
+    text-decoration: none;
+    color: var(--text-color);
+}
 
 
